@@ -47,7 +47,7 @@ toy-robot-simulator
 ### The Two Modes:
 - You can run the application in interactive mode with the `-i` flag; or
 - You can run it while passing in a file with the `-f` flag 
-- I have provided a sample file in the `root` directory, called [example-command-file.txt](example-command-file.txt)
+- I have provided a sample file called [example-command-file.txt](example-command-file.txt)
 
 ### Example Usage
 ```bash
@@ -63,4 +63,4 @@ toy-robot-simulator -h
 
 ### Extra Notes
 - I have also provided examples of other tables and toys
-- This can be built into the cli application with more flags super easily
+- This can be built into the cli application with more flags
