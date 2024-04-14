@@ -50,17 +50,17 @@ toy-robot-simulator
 ### The Two Modes:
 - You can run the application in interactive mode with the `-i` flag; or
 - You can run it while passing in a file with the `-f` flag 
-- I have provided a sample file called [example-command-file.txt](example-command-file.txt)
+- I have provided a sample file called [commands.txt](commands.txt)
 
 ### Example Usage
 ```bash
 node ./dist/index.js -i
-node ./dist/index.js -f example-command-file.txt
+node ./dist/index.js -f commands.txt
 node ./dist/index.js -h
 
 Or once installed:
 toy-robot-simulator -i
-toy-robot-simulator -f example-command-file.txt
+toy-robot-simulator -f commands.txt
 toy-robot-simulator -h
 ```
 
