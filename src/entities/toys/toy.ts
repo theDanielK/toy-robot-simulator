@@ -6,6 +6,7 @@ import { ToyError } from '../../errors';
  * Abstract class for a robot
  */
 export abstract class Toy {
+  // Note, possible improvement could be to collapse {x, y, facing} into a single Position object and manipulate based on that
   protected x: number = -1;
   protected y: number = -1;
   protected facing: string = '';
