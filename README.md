@@ -5,7 +5,9 @@ Toy Robot Simulator is a simple command line application that simulates a toy ro
 ## Installation
 
 Use npm to install dependencies
-
+### Versions
+- Node: v20.12.2
+- NPM: 10.5.0
 
 ```bash
 npm install
